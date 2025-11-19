@@ -1,0 +1,19 @@
+# Automatizador de Documentos Word
+# Dependencias del proyecto
+
+# Librería principal para manipular documentos Word
+python-docx>=0.8.11
+
+# tkinter viene incluido con Python, pero en algunos sistemas Linux puede necesitar instalarse
+# En Ubuntu/Debian: sudo apt-get install python3-tk
+# En Fedora: sudo dnf install python3-tkinter
+
+# Librerías adicionales opcionales para funcionalidades avanzadas
+# Descomenta si necesitas estas funcionalidades:
+
+# Para trabajar con PDFs (si quieres agregar soporte PDF en el futuro)
+# PyPDF2>=3.0.0
+
+# Para trabajar con Excel (si quieres cargar datos desde Excel)
+# openpyxl>=3.1.0
+# pandas>=2.0.0
